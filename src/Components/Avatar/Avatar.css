@@ -1,0 +1,8 @@
+.Avatar{
+    background:var(--background-secondary);
+    border-radius: .25rem;
+}
+
+.Avatar.Circle{
+    border-radius: 50%
+}
