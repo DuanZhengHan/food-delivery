@@ -1,6 +1,9 @@
 import React from "react";
 import './Header.css';
 import Button from "../Button/Button";
+import CartIcon from "../Svg/CartIcon";
+import DropdownIcon from "../Svg/DropdownIcon";
+import BarIcon from "../Svg/BarIcon";
 
 const Header = () => {
     return (
@@ -8,18 +11,24 @@ const Header = () => {
             <div>
                 <div>
                     <Button type="transparent">
-                        <svg className="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341.333 341.333">
-                            <rect y="277.333" width="341.333" height="42.667" />
-                            <rect y="149.333" width="341.333" height="42.667" />
-                            <rect y="21.333" width="341.333" height="42.667" />
-                        </svg>
+                        <BarIcon/>
                     </Button>
                 </div>
             </div>
             <div>
-                <img src='https://res.cloudinary.com/psacloud/image/upload/v1587720676/New_Project_paifse.png' alt='' className='logo'/>
+                <img src='https://res.cloudinary.com/psacloud/image/upload/v1587720676/New_Project_paifse.png' alt='' className='logo' />
             </div>
-            <div>
+            <div className='f jc-f_s'>
+                <div>
+                    <Button type='transparent'>
+                        <CartIcon/>
+                        <DropdownIcon/>
+                    </Button>
+                </div>
+                <Button type="transparent px-4">
+                    <span>En</span>
+                    <DropdownIcon/>
+                </Button>
                 <Button type="transparent">
                     <span>login</span>
                 </Button>

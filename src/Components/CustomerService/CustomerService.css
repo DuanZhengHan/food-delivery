@@ -1,0 +1,19 @@
+.CustomerService{
+    position:fixed;
+    bottom:70px;
+    right:0;
+    width:auto;
+    height:auto;
+    z-index:998;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius:20%;
+    border:1.5px solid var(--color-secondary);
+    border-right:0;
+    background:var(--background-secondary);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12);
+    cursor:pointer;
+}
+
+.CustomerService svg{
+    height:30px;
+}

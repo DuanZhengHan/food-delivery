@@ -1,0 +1,12 @@
+.menu-status{
+    position:absolute;
+    top:0;
+    z-index:3;
+    right:0px;
+}
+
+.menu-status svg{
+    width:auto;
+    margin:auto;
+    height:40px;
+}

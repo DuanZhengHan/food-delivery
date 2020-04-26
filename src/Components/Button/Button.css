@@ -8,23 +8,38 @@
     text-transform: uppercase;
 }
 
-.Button.transparent.secondary {
-    color: var(--color-secondary);
-}
-.Button.transparent.secondary:hover {
-    color: var(--color-secondary-hover)
-}
-.Button .icon {
-    height: 20px;
-    vertical-align: top;
+.Button.default {
+    background: var(--background-secondary);
 }
 
-.Button .icon+span {
-    margin-left: 6px;
+.Button.default:hover {
+    background: var(--background-secondary-hover)
+}
+
+.Button.default:active {
+    background: var(--background-secondary)
+}
+
+.Button.primary {
+    background: var(--color-primary);
+    color: white;
+}
+
+.Button.secondary {
+    background: var(--color-secondary);
+    color: white;
+}
+
+.Button.secondary:hover {
+    background: var(--color-secondary-hover);
+}
+
+.Button.secondary:active {
+    background: var(--color-secondary);
 }
 
 .Button.transparent {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .Button.transparent:hover {
@@ -33,4 +48,26 @@
 
 .Button.transparent:hover svg {
     fill: var(--color-primary)
+}
+
+.Button.transparent.secondary {
+    color: var(--color-secondary);
+}
+
+.Button.transparent.secondary:hover {
+    color: var(--color-secondary-hover)
+}
+
+.Button .icon {
+    height: 20px;
+    vertical-align: top;
+}
+
+.Button .dropdown-icon {
+    height: 12px;
+    margin-left: 8px;
+}
+
+.Button .icon+span {
+    margin-left: 6px;
 }

@@ -1,0 +1,40 @@
+.MenuLists>div{
+    overflow: hidden;
+}
+.MenuLists .slick-prev{
+    left:initial;
+    right: 90px !important;
+}
+.MenuLists .slick-slider{
+    margin-left:-12px;
+    margin-right:-12px;
+}
+.MenuLists .slick-next{
+    right: 15px;
+}
+
+.MenuLists .slick-prev, .MenuLists .slick-next{
+    top:-30px;
+}
+
+.MenuLists .slick-prev svg, .MenuLists .slick-next svg{
+    height:20px;
+    fill:var(--color-secondary)
+}
+
+.slick-arrow:not(.slick-disabled):hover svg{
+    fill:var(--color-secondary-hover)
+}
+.MenuLists .slick-disabled .Button{
+    cursor:not-allowed;
+}
+.MenuLists .slick-disabled svg{
+    fill: gray;
+}
+.MenuLists .Button.default:hover{
+    background: var(--background-secondary);
+}
+.MenuLists .slick-disabled .Button.default:hover,
+.MenuLists .slick-disabled .Button.default{
+    background: var(--background-secondary-hover);
+}

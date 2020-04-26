@@ -4,7 +4,8 @@
 :root{
   --border-color: rgba(0, 0, 0, 0.12);
   --background-primary: #F9F9F9;
-  --background-secondary: #e9e9ef;
+  --background-secondary-hover: #e9e9ef;
+  --background-secondary: #cbcbd3;
   --color-primary: #BE1E24;
   --color-secondary:#1B408C;
   --color-secondary-hover:#2c63cf;

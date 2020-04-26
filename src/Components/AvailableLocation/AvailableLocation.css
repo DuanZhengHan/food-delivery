@@ -1,0 +1,21 @@
+.AvailableLocation ul{
+    padding:0;
+}
+
+.AvailableLocation li{
+    list-style:none;
+    cursor:pointer;
+}
+
+.AvailableLocation li svg{
+    height:10px;
+    margin-right:5px;
+}
+
+.AvailableLocation li:hover{
+    color:var(--color-secondary)
+}
+
+.AvailableLocation li:hover svg{
+    fill:var(--color-secondary)
+}

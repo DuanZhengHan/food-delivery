@@ -3,9 +3,7 @@ import './HomeBanner.css';
 
 const HomeBanner = () => {
     return (
-        <div className='HomeBanner'>
-
-        </div>
+        <div className='HomeBanner'></div>
     )
 }
 
